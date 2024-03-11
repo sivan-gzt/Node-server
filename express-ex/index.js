@@ -5,7 +5,7 @@ const chalk = require('chalk');
 const PORT = process.env.PORT || 8181;
 app.use(express.json());
 app.use(express.text());
-
+app.use('/static', express.static('./public'));
 
 // Application-level middleware
 
