@@ -7,15 +7,19 @@
     "start": "node .",
     "test": "nodemon test.js",
     "dev": "nodemon .",
-    "app": "npm install && nodemon main.js",
+    "app": "npm install && nodemon .",
     "express-ex": "nodemon ./express-ex/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.18.3",
-    "lodash": "^4.17.21"
+    "joi": "^17.12.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
